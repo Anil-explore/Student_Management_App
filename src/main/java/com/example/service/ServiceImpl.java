@@ -15,6 +15,7 @@ public class ServiceImpl implements StudentService {
 		this.repo=repo;
 	}
 	
+	
 
 	@Override
 	public List<Student> getStudentsData() {
@@ -31,6 +32,10 @@ public class ServiceImpl implements StudentService {
 		else {
 			return "not saved";
 	}
+	}
+		
+	public String dummy() {
+		return "just a dummy class";
+	}
 
-}
 }
